@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 
 .container {
@@ -95,5 +96,369 @@ body {
 }
 
 .container2 {
-    
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.about1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+.about1 p {
+    text-align: justify;
+}
+
+.cards-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.card1 {
+    display: flex;
+    width: 15rem;
+    height: 22rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #F8637F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+    display: flex;
+    width: 15rem;
+    height: 22rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #ffdee8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card3 {
+    display: flex;
+    width: 15rem;
+    height: 22rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #F8637F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+    width: 10rem;
+    height: auto;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+    display: flex;
+    text-align: start;
+    width: 100%;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    font-size: 0.8rem;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83ACE6;
+    padding: 3rem 0;
+}
+
+.about2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 80%;
+}
+
+.cll-left img {
+    width: 20rem;
+    height: auto;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.texto h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.texto p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    gap: 4rem;
+}
+
+.about3 {
+    flex: 1;
+    text-align: left;
+}
+
+.about3 h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.about3 p {
+    font-size: 1.2rem;
+    color: #313131;
+    padding-top: 1rem;
+}
+
+.cll-right2 img {
+    width: 350px;
+    height: auto;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #83ACE6;
+    padding: 3rem 0;
+    color: white;
+}
+
+.we-make P {
+    padding: 2rem;
+}
+
+.we-make img {
+    width: 20rem;
+    height: 40REM;
+    padding: 2rem;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem 0;
+    color: rgb(0, 0, 0);
+    gap: 2rem;
+}
+
+.avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.avaliacao h2,
+.avaliacao p {
+    margin: 0;
+}
+
+.avaliacao-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+
+.card-avaliation1,
+.card-avaliation2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35rem;
+    height: 15rem;
+    padding: 1rem;
+    background-color: #ffacbc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    gap: 1rem;
+}
+
+.card-avaliation1 img,
+.card-avaliation2 img {
+    width: 5rem;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.card-avaliation1 p,
+.card-avaliation2 p {
+    text-align: left;
+    flex: 1;
+}
+
+.card-avaliation1 h3,
+.card-avaliation2 h3 {
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #83ACE6;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer img {
+    width: 12rem;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .nav ul {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .inicio {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .download-buttons img {
+        width: 10rem;
+    }
+
+    .cll-right img {
+        width: 200px;
+    }
+
+    .cards-container2 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .card1, .card2, .card3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .container3 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cll-left img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .container4 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cll-right2 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .container5 {
+        padding: 2rem 1rem;
+    }
+
+    .make-cards img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .avaliacao-cards {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .card-avaliation1, .card-avaliation2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-avaliation1 img, .card-avaliation2 img {
+        width: 4rem;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer img {
+        width: 10rem;
+    }
 }
