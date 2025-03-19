@@ -1,22 +1,21 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
-    
 }
 
 .container {
     background-image: url(./assets/back.png);
     background-size: cover;
-}
-
-.img-download img {
-    width: 14rem;
-    height: 6rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav {
@@ -27,16 +26,14 @@ body{
     top: 0;
     right: 0;
     width: 100%;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .nav ul {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     list-style: none;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .nav ul li {
@@ -49,19 +46,54 @@ body{
     padding: 0.5rem 1rem;
 }
 
-.cll-right {
+.nav ul li a:hover {
+    color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.inicio {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    padding-right: 8rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 4rem;
 }
 
-.inicio1 img {
-    width: 14rem;
-    height: 6rem;
+.content {
+    flex: 1;
+    text-align: left;
 }
 
-.inicio1 {
-    display: flex;    
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.download-buttons img {
+    width: 12rem;
+    height: auto;
+}
+
+.cll-right img {
+    width: 250px;
+    height: auto;
+}
+
+.container2 {
     
 }
